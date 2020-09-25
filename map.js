@@ -74,7 +74,6 @@ function onSuccess(result) {
     }
     let blue = "00";
     let color = '#' + red + green + blue;
-    console.log(color);
 
     let svg = '<svg height="10" width="10" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="5" r="4" fill="{$COLOR}" /></svg>';
     svg = svg.replace('{$COLOR}', color);
